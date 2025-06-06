@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html translate="no" data-dpr="1" style="font-size: 37.52px;">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex,nofollow">
+  <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+  <title>71lottery</title>
+  <link rel="shortcut icon" href="/images/bitbug_favicon.ico" type="image/x-icon">
+  <link href="css/app.21328c5b.css" rel="stylesheet">
+  <link rel="stylesheet" href="/k3/css/chunk-9ca7d0dc.0f968705.css">
+  <link rel="stylesheet" href="/k3/css/chunk-f7aaa136.30c67545.css">
+  <link rel="stylesheet" href="/k3/css/chunk-vendors.b521b44f.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+      width: 100%; 
+      background-color: #9195a3;
+      padding: 0;
+      margin: 0;
+    }
+    .block-click {
+      pointer-events: none;
+    }
+    .d-none {
+      display: none!important;
+    }
+  </style>
+</head>
+
+<body style="font-size: 12px;">
+  <div id="app">
+    <div data-v-03b808c2="" class="mian game">
+      <div data-v-106b99c8="" data-v-03b808c2="" class="navbar">
+        <div data-v-106b99c8="" class="navbar-left" onclick="location.href='/home'">
+          <div data-v-03b808c2="" data-v-106b99c8="" class="c-row c-row-middle-center"><img data-v-03b808c2="" data-v-106b99c8="" src="/images/back.c3244ab0.png" class="navbar-back"></div>
+        </div>
+        <div data-v-106b99c8="" class="navbar-title">
+          <div data-v-03b808c2="" data-v-106b99c8="" class="c-row c-row-middle-center">
+            <img data-v-03b808c2="" data-v-106b99c8="" height="38px" width="100px" src="/images/17-49-48-625.png" class="logo" style="height: .80333rem!important;">
+          </div>
+        </div>
+        <div data-v-106b99c8="" class="navbar-right">
+          <div data-v-03b808c2="" data-v-106b99c8="" class="c-row navbarR">
+            <div data-v-03b808c2="" data-v-106b99c8="" class="c-row item c-row-middle-center" onclick="location.href='/keFuMenu'">
+              <img data-v-03b808c2="" data-v-106b99c8="" src="/images/audio.webp" class="item-audio">
+            </div>
+            <div data-v-03b808c2="" data-v-106b99c8="" class="c-row item c-row-middle-center">
+              <img data-v-03b808c2="" data-v-106b99c8="" src="/images/volume-up-line.webp" class="item-volume">
+            </div>
+          </div>
+        </div>
+      </div>
+      <%- include('element/gameHead.ejs') -%>
+      <%- include('element/betting.ejs') -%>
+      <%- include('element/listOrder.ejs') -%>
+      <%- include('element/popupJoin.ejs') -%>
+      <%- include('element/quytac.ejs') -%>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+    try {
+    let check = true;
+    $("#list_order").on("click", ".item", function (e) {
+      e.preventDefault();
+      let parent = $(this).parent();
+      let myVar = parent.find(".details");
+      if (check) {
+        check = false;
+        myVar.css('display', '');
+        console.log(myVar)
+      } else {
+        check = true;
+        myVar.css('display', 'none');
+        console.log("unch")
+      }
+    });
+  } catch (error) {
+    console.error("Script error:", error);
+  }
+});
+
+
+ </script>
+  <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+  <script src="/k3/js/main.js"></script>
+  <script src="/k3/js/chuck.js"></script>
+  <style>
+    /*! CSS Used from: http://localhost:3000/k3/css/app.21328c5b.css */
+.c-row{display:flex;}
+.c-row-middle{align-items:center;}
+.c-row-between{justify-content:space-between;}
+.c-tc{text-align:center;}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;outline:none;}
+:not(input, textarea){-webkit-touch-callout:none;-webkit-user-select:none;}
+.c-row{display:flex;}
+.c-row-middle{align-items:center;}
+.c-row-between{justify-content:space-between;}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;outline:none;}
+:not(input,textarea){-webkit-touch-callout:none;-webkit-user-select:none;}
+/*! CSS Used from: http://localhost:3000/k3/css/chunk-f7aaa136.30c67545.css */
+[data-v-03b808c2]{touch-action:pan-y;}
+.game-list .list .hb .item .goItem[data-v-03b808c2]{height:.69333rem;}
+.game-list .list .hb .item .goItem .li[data-v-03b808c2]{width:.53333rem;height:.53333rem;}
+.game-list .list .hb .item .goItem .li.img3[data-v-03b808c2]{background:url(http://localhost:3000/images/3.6e9f4676.png) no-repeat 50%;background-size:100% 100%;}
+.game-list .list .hb .item .goItem .li.img4[data-v-03b808c2]{background:url(http://localhost:3000/images/4.49ad5147.png) no-repeat 50%;background-size:100% 100%;}
+.game-list .list .hb .item .goItem .li.img5[data-v-03b808c2]{background:url(http://localhost:3000/images/5.135b3ae6.png) no-repeat 50%;background-size:100% 100%;}
+  </style>
+</body>
+
+</html>
